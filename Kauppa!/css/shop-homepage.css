@@ -1,0 +1,76 @@
+
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+		filter: invert(100%);
+}
+
+
+H1 {
+	
+	Color: orange;
+			
+}
+
+
+
+p  {
+	
+	Color: dark;
+	Animation-name: example2;
+	Animation-duration: 4s;
+
+}
+
+@keyframes example2 {
+  from {color: red;}
+  to {to color: dark;}
+  
+}
+
+.form-group {
+	width: 74%;
+	margin-left: 26%;
+	margin-right: 50%;
+
+}
+
+.btn-warning {
+	margin-left: 25%;
+}
+	
+	
+H2 {
+	margin-left: 26%;
+}
+
+H3 {
+	Color: Green;
+}
+
+
+footer {
+
+width: 100%;	
+
+}
+
+.jumbotron {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/7/75/Lake_Lappaj%C3%A4rvi_2016-05-31.jpg");
+  background-size: cover;  
+}
+
+footer {
+margin: 0;
+padding: 0;
+background-image: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg");
+font-family: ‘Merriweather’, serif;
+background-size: cover;
+ opacity: 0.4;
+  
+}
+
+
+.col-lg-5 {
+	text-align: center;
+}
