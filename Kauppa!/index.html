@@ -7,14 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+ 
+
 
   <title>Talokuitu.fi kartoittaa ja kilpailuttaa palvelut puolestasi!</title>
+  
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
   <link href="css/shop-homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -25,7 +29,8 @@
     <div class="container">
 	
       <a class="navbar-brand" href="#">
-	  <img src="color_logo_transparent5.png" alt="">
+	  
+	  <img src="color_logo_transparent5.png">
 	  </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -33,15 +38,16 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Pyydä tarjous!
+            <a class="nav-link" href="under construction!">Pyydä tarjous!
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Tietoa talokuidusta</a>
+			
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><B>Referessit</B></a>
+            <a class="nav-link" href="referenssit.html"><B>Referessit</B></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Yhteystiedot</a>
@@ -50,7 +56,47 @@
       </div>
     </div>
   </nav>
-  
+ <p></p>
+ <p></p>
+ <p></p>
+  <style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 40px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+</style>
+<body>
+ <div class="icon-bar">
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <a href="#"><i class="fa fa-search"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a> 
+  <a href="#"><i class="fa fa-globe"></i></a>
+  <a href="#"><i class="fa fa-trash"></i></a> 
+</div>
+
+
+
 
   <!-- Page Content -->
   <div class="jumbotron jumbotron-fluid">
@@ -72,10 +118,10 @@
         <h1 class="my-4">PALVELUMME:</h1>
         <div class="list-group">
 		 <a href="#" class="list-group-item">Saatavuuksien kartoituspalvelut</a>
-          <a href="#" class="list-group-item">Palvelumme yrityksille</a>
+		 <a href="tuotesivu.html" class="list-group-item"><B>Palvelumme yrityksille</B></a>
           <a href="#" class="list-group-item">Palvelumme taloyhtiöille</a>
           <a href="#" class="list-group-item">Palvelumme yksityisille ja yhteisöille</a>
-		  
+		 
         </div>
 
       </div>
@@ -90,7 +136,8 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 			<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-		  </ol>
+			
+          </ol>
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
               <img class="d-block img-fluid" src="color_logo_transparent.jpg" alt="First slide">
@@ -142,7 +189,8 @@
               <a href="#"><img class="card-img-top" src="Enterpriseinternet.png" alt=""></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">Yritysten ja yhteisöjen kilpailutuspalvelut</a>
+                  <a href="tuotesivu.html"><b>Yritysten ja yhteisöjen kilpailutuspalvelut</B></a>
+				  
                 </h4>
                 <h5>100€/ yrityksen perusyhteyden kilpailutus</h5>
                 <p class="card-text"> Kilpailutettavaksi otetaan saatavilla olevat operaattorit. Kilpailutus suoritetaan asiakakkaan kanssa sovittujen kriteerien puitteissa. Palomuuripalvelut ja muut lisäpalvelut + 50€</p>
@@ -220,8 +268,29 @@
   
   <!-- Footer -->
   <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Talokuitu.fi - 2020</p>
+      <div class="container">
+      <div class="row">
+	<div class="col-lg-3 col-md-6 md-4"></div>
+    <div class="col-sm-3" style="background-color:blue;">
+	<p class="m-0 text-white ">Kilpailuta, se kannattaa!</p>
+	<a href="#" class="fa fa-twitter"></a>
+	<a href="#" class="fa fa-google"></a>
+	<a href="#" class="fa fa-instagram"></a>
+	</div>
+	<div class="col-lg-3 col-md-6 md-4" style="background-color:green;">
+	<p class="m-0 text-white ">Säästä rahaa!</p>
+	 <a href="#" class="fa fa-facebook"></a>
+	  <a href="#" class="fa fa-linkedin"></a>
+	  <a href="#" class="fa fa-youtube"></a>
+	 </div>
+    <div class="col-lg-3 col-md-6 md-4" style="background-color:orange;">
+	<p class="m-0 text-dark ">Talokuitu.fi</p>
+	<a href="#" class="fa fa-snapchat-ghost"></a>
+	<a href="#" class="fa fa-rss"></a>
+	<a href="#" class="fa fa-skype"></a>
+	</div>
+  </div>
+	 
     </div>
     <!-- /.container -->
   </footer>
