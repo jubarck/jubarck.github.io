@@ -14,12 +14,10 @@ img {
   border-radius: 20%;
 }
 
-p  {
-	
-	Color: orange;
+p  {	
+	Color: #ab42a5;
 	Animation-name: example2;
 	Animation-duration: 7s;
-
 }
 
 
@@ -44,16 +42,21 @@ p  {
 
 H1 {
 	
-	Color: orange;
+	Color: #f94d00;
+	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 		
 }
 	
-H2 {
-	margin-left: 26%;
+
+ h2 {
+ Color: Green;
+ 
 }
+
 
 H3 {
 	Color: Green;
+	margin-left: 26%;
 }
 
 
