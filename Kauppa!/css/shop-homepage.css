@@ -47,6 +47,8 @@ H1 {
 		
 }
 	
+	
+
 
  h2 {
  Color: Green;
@@ -66,7 +68,10 @@ H3 {
   background: url("https://upload.wikimedia.org/wikipedia/commons/7/75/Lake_Lappaj%C3%A4rvi_2016-05-31.jpg");
   background-size: cover;  
   
+  
 }
+
+
 
 footer {
 background-image: url("https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg");
