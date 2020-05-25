@@ -20,6 +20,11 @@ p  {
 	Animation-duration: 7s;
 }
 
+b  {
+	Color: #ab42a5;
+	Animation-name: example2;
+	Animation-duration: 7s;
+}
 
 
 @keyframes example2 {
